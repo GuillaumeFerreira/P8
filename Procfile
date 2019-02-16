@@ -1,1 +1,1 @@
-web: python projet8/manage.py collectstatic --noinput ; web: gunicorn projet8.wsgi
+web: gunicorn projet8.wsgi
