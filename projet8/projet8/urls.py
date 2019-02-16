@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url, include
-from projet8.catalogue import views
+from catalogue import views
 
 urlpatterns = [
     url(r'^$', views.index),
